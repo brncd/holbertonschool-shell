@@ -1,3 +1,2 @@
 #!/bin/bash
-grep -v "nologin$" /etc/passwd | grep -v "fals
-e$"
+grep -v "nologin$" /etc/passwd | grep -v "false$"
