@@ -1,2 +1,3 @@
 #!/bin/bash
-cat /etc/passwd | sort -d
+grep -v "nologin$" /etc/passwd | grep -v "fals
+e$"
