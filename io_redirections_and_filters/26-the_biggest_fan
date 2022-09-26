@@ -1,2 +1,2 @@
 #!/bin/bash
-tail | cut -f 1 | sort -d | head -n 11
+tail nasa_19950801.tsv | cut -f 1 | uniq -c | sort -nr | rev | cut -d " " -f 1 | rev
