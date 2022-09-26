@@ -1,0 +1,2 @@
+#!/bin/bash
+tail | cut -f 1 | sort -d | head -n 11
